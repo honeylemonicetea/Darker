@@ -1,0 +1,16 @@
+.music-container h1{
+    margin: 4% 0;
+    text-align: center;
+}
+
+
+.playlist-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+
+}
+
+iframe{
+    border-radius: 12px;
+}

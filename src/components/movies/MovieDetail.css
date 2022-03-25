@@ -1,0 +1,51 @@
+.poster{
+    background-image: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4a49e734a10a53254815effc2f74e6a3f9431d033eb2ec07ff1b6769507ed4c6._RI_V_TTW_.jpg);
+    width: 400px;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+}
+
+.movie-det-container{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 0 50px ;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+
+}
+.still-gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px 0;
+}
+.still-gallery img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* TEXT STYLES */
+.movie-title{
+    font-size: 4em;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.year-det{
+    font-style: italic;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+.bolder{
+    font-weight: 900;
+}
+
+.summary{
+    padding-top: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,28 @@
+.logo{
+    width: 40px;
+
+}
+.menu-container{
+    background-color: black;
+    padding: 15px 30px;
+
+}
+
+.links-container, .menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-container a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.links-container a:hover{
+    text-shadow: 1px 2px 5px white;
+}
+
+.links-burger{
+    display: none;
+}

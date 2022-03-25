@@ -1,0 +1,11 @@
+.footer-links a{
+    display: inline-block;
+    text-decoration: none;
+}
+.footer-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.footer-container{
+    background-color: black;
+}

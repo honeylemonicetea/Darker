@@ -1,0 +1,6 @@
+.books-content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 400px);
+    gap: 10px 50px;
+}
