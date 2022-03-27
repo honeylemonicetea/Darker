@@ -3,14 +3,18 @@ import './Menu.css'
 
 import Logo from '../../img/logo.jpg'
 import {Link} from 'react-router-dom'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
 
 function Menu(){
     return (
-      <div className="menu-container">
-        <div className="menu">
-          <Link to="/">
-            <img src={Logo} alt="" className="logo" />
-          </Link>
+      <div className="menu-wrapper">
+        <div className="menu-container">
+          <div className="menu">
+            <Link to="/">
+              <img src={Logo} alt="" className="logo" />
+            </Link>
+          </div>
           <div className="links-container">
             <Link to="/">Home</Link>
             <Link to="/images">Images</Link>
@@ -18,6 +22,14 @@ function Menu(){
             <Link to="/music">Music</Link>
             <Link to="/movies">Movies</Link>
             <Link to="/books">Books</Link>
+          </div>
+        </div>
+        <div className="burger-container">
+          <div className="burger-menu">
+            <FontAwesomeIcon icon={faXmark} className='burger-close' />
+            <Link to="/">
+              <img src={Logo} alt="" className="logo" />
+            </Link>
           </div>
           <div className="links-burger">
             <Link to="/">Home</Link>

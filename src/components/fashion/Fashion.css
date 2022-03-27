@@ -9,18 +9,18 @@
 /* .fashion-inner{
     padding-top: 7%;
 } */
-
+.fashion-container{
+    padding-top: 7.8vh;
+}
 
 .fashion-menu{
-    margin-top: 3%;
-    padding: 20px;
     text-align: center;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     background-color: rgba(0, 0, 0, 0.5);
-    position: fixed;
+    position: sticky;
     width: 100%;
-    z-index: 100;
+
 }
 
 .fashion-menu a{
@@ -32,5 +32,6 @@
 
 .clothing-cat{
     text-align: center;
-    padding-top: 13%;
+
+    
 }

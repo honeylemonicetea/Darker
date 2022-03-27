@@ -42,30 +42,115 @@ a{
     }
     
     .container{
-        width: 100%;
-        padding: 1% 2%;
+        width: 100vw;
+        padding: 2vh 4vw;
+
     }
 
 
 
     /* MAKE A BURGER MENU */
-      .menu-container{
-        position: static;
-      }
-      .menu-container .menu{
-        display: block;
-      }
-      .menu .links-container{
+      .menu-wrapper .menu-container{
         display: none;
       }
-      .menu .links-burger{
+     
+      .menu-wrapper .burger-container{
         display: block;
+        height: 100vh;
+        background-color: black;
+        width: 100%;
+
       }
-      .menu .links-burger a{
+      .burger-container .logo{
+        width:40%;
+        /* border-radius: 50%; */
+
+      }
+      .burger-container a{
         display: block;
+        font-size: 2em;
+        padding: 4%;
+        /* border: 1px solid grey; */
         
       }
 
-    /*  */
+
+      .burger-close{
+        width:7%;
+        height: 1%;
+        position: relative;
+        top: 2vh;
+        left: 80%;
+      }
+
+
+
+
+    /* FOOTER */
+    .footer-container .footer-links{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+  
     
+
+
+    /* IMAGES PAGE */
+    .container .images-container{
+      display: block;
+    }
+    .images-container .image-card{
+      width: 100%;
+      height: 40vh;
+
+    }
+
+
+    /* FASHION PAGE */
+    .fashion-container .fashion-menu{
+      display: none;
+    }
+    .clothing-cat .clothes-display{
+      display: block;
+    }
+    .clothes-display .cloth-card{
+      width: 100%;
+      margin: 1vh 0;
+    }
+    .container .movie-det-container{
+      grid-template-columns: 1fr;
+    }
+    .movie-left{
+      width: fit-content;
+    }
+
+    .movie-left .poster{
+      width: 81vw;
+    }
+
+
+
+    /* MUSIC */
+    .music-container .playlist-container{
+      grid-template-columns: 1fr;
+    }
+
+
+    /* MOVIES */
+    .movies-container .movies-grid{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(16, 60vh);
+    }
+
+    /* BOOKS */
+    .books-container .books-content{
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(29, 60vh);
+    }
+    .books-container .book-card-container{
+      margin: 1vh 0
+    }
+    .container .book-detail{
+      display: block;
+    }
 }
