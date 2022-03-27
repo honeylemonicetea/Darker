@@ -62,7 +62,7 @@ a{
 
       }
       .burger-container .logo{
-        width:35%;
+        display: none;
         /* border-radius: 50%; */
 
       }
