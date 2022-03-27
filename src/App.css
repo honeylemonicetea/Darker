@@ -120,7 +120,7 @@ a{
     .container .movie-det-container{
       grid-template-columns: 1fr;
     }
-    .movie-left{
+    .movie-left, .movie-right{
       width: fit-content;
     }
 
