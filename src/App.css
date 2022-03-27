@@ -62,13 +62,13 @@ a{
 
       }
       .burger-container .logo{
-        width:40%;
+        width:35%;
         /* border-radius: 50%; */
 
       }
       .burger-container a{
         display: block;
-        font-size: 2em;
+        font-size: 1.8em;
         padding: 4%;
         /* border: 1px solid grey; */
         
@@ -80,7 +80,7 @@ a{
         height: 1%;
         position: relative;
         top: 2vh;
-        left: 80%;
+        left: 85%;
       }
 
 
