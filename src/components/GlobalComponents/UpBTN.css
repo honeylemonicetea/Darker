@@ -1,0 +1,14 @@
+.up-btn svg{
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    right: 3vw;
+    bottom: 3vh;
+   
+}
+
+.up-btn svg:hover{
+    cursor: pointer;
+     
+    
+}

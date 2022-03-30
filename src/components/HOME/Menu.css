@@ -28,3 +28,74 @@
 .burger-container{
     display: none;
 }
+
+
+@media (max-width: 820px) {
+     /* MAKE A BURGER MENU */
+      .menu-wrapper .menu-container{
+        display: none;
+      }
+     
+      .menu-wrapper .burger-inner{
+        height: 100vh;
+        background-color: black;
+        width: 100%;
+        transition: all 0.5s;
+
+      }
+      .burger-container{
+          display: block;
+      }
+      .burger-container .logo{
+        display: none;
+        /* border-radius: 50%; */
+
+      }
+      .burger-container a{
+        display: block;
+        font-size: 1.8em;
+        padding: 4%;
+        /* border: 1px solid grey; */
+        
+      }
+
+
+      .burger-close-btn{
+        width:7%;
+        height: 1%;
+        position: relative;
+        top: 2vh;
+        left: 85%;
+      }
+
+      .burger-menu-button svg{
+          width: 10vw;
+          height: 8vh;
+          margin-top: 2vh;
+          margin-left: 2vw;
+
+      }
+
+
+
+      /* BURGER MENU CLOSED */
+      .closed{
+          display: none;
+      }
+      .opened{
+          display: block;
+      }
+
+      .burger-closed{
+          display: block;
+      }
+      .burger-opened{
+          display: none;
+      }
+      
+
+
+
+
+
+}

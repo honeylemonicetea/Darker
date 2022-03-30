@@ -1,11 +1,12 @@
 import React from "react";
-import Menu from './HOME/Menu'
 import PictureGrid from './HOME/PictureGrid'
 import Banner from "./HOME/Banner";
 import Article from './HOME/Article'
 import Footer from './HOME/Footer'
-
 import Header from "./HOME/Header";
+
+// TESTING
+import UpBTN from "./GlobalComponents/UpBTN";
 
 function HomePage(){
     return (
@@ -17,6 +18,7 @@ function HomePage(){
           <Banner />
           <Article />
           <Footer />
+          <UpBTN/>
         </article>
     </div>
     );
