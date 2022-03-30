@@ -14,6 +14,7 @@ import Books from './components/books/Books';
 import MovieDetail from './components/movies/MovieDetail'
 import BookDetail from './components/books/BookDetail'
 import ClothingDetail from './components/fashion/ClothDet'
+import UpBTN from './components/GlobalComponents/UpBTN' 
 
 
 ReactDOM.render(
@@ -34,6 +35,7 @@ ReactDOM.render(
     {/* <React.StrictMode>
       <App />
     </React.StrictMode> */}
+    <UpBTN/>
   </BrowserRouter>,
   document.getElementById("root")
 );

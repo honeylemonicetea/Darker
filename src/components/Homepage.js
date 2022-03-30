@@ -18,7 +18,7 @@ function HomePage(){
           <Banner />
           <Article />
           <Footer />
-          <UpBTN/>
+         
         </article>
     </div>
     );
