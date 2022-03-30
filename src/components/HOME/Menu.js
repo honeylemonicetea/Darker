@@ -38,22 +38,38 @@ function Menu(){
         </div>
         <div className="burger-container">
           <div className={`burger-menu-button burger-${closed}`}>
-            <FontAwesomeIcon icon={faBars} onClick={toggleMenu} /> 
+            <FontAwesomeIcon icon={faBars} onClick={toggleMenu} />
           </div>
           <div className={`burger-inner ${closed}`}>
             <div className="burger-menu">
-              <FontAwesomeIcon icon={faXmark} className='burger-close-btn' onClick={toggleMenu} />
+              <FontAwesomeIcon
+                icon={faXmark}
+                className="burger-close-btn"
+                onClick={toggleMenu}
+              />
               <Link to="/">
                 <img src={Logo} alt="" className="logo" />
               </Link>
             </div>
             <div className="links-burger">
-              <Link to="/">Home</Link>
-              <Link to="/images">Images</Link>
-              <Link to="/fashion">Fashion</Link>
-              <Link to="/music">Music</Link>
-              <Link to="/movies">Movies</Link>
-              <Link to="/books">Books</Link>
+              <Link to="/" onClick={toggleMenu}>
+                Home
+              </Link>
+              <Link to="/images" onClick={toggleMenu}>
+                Images
+              </Link>
+              <Link to="/fashion" onClick={toggleMenu}>
+                Fashion
+              </Link>
+              <Link to="/music" onClick={toggleMenu}>
+                Music
+              </Link>
+              <Link to="/movies" onClick={toggleMenu}>
+                Movies
+              </Link>
+              <Link to="/books" onClick={toggleMenu}>
+                Books
+              </Link>
             </div>
           </div>
         </div>
