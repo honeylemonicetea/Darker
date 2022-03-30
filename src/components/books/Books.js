@@ -31,7 +31,7 @@ function Books() {
   return (
     <div className="books-container">
       <div className="container">
-        <h1>BOOKS ARE GONNA BE HERE</h1>
+        <h1>BOOKS</h1>
         <div className="books-content">
           {books.map((e) => (
             <BookCard
