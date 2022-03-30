@@ -39,6 +39,7 @@ function Menu(){
         <div className="burger-container">
           <div className={`burger-menu-button burger-${closed}`}>
             <FontAwesomeIcon icon={faBars} onClick={toggleMenu} />
+            <span id="title">darker</span>
           </div>
           <div className={`burger-inner ${closed}`}>
             <div className="burger-menu">

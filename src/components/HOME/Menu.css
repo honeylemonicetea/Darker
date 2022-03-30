@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .logo{
     width: 40px;
 
@@ -45,11 +47,22 @@
       }
       .burger-container{
           display: block;
+          background-color: black;
+          padding-bottom: 1vh;
       }
       .burger-container .logo{
         display: none;
         /* border-radius: 50%; */
-
+      }
+      #title{
+        font-size: 3.5em;
+        position: relative;
+        top: -1vh;
+        left: 23vw;
+        padding-bottom: 2vh;
+        font-family: 'Pacifico', cursive;
+        
+        
       }
       .burger-container a{
         display: block;
