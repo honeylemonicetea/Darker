@@ -1,5 +1,6 @@
 import React, {useEffect} from "react";
 import './Music.css'
+import { Helmet } from "react-helmet";
 
 function Music() {
     useEffect(() => {
@@ -7,6 +8,9 @@ function Music() {
     }, []);
   return (
     <div className="container">
+        <Helmet>
+        <title>DARKER | Music</title>
+      </Helmet>
       <div className="music-container">
         <h1>DARK MUSIC</h1>
         <div className="playlist-container">

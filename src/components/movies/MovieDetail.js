@@ -1,42 +1,20 @@
 import React, {useEffect, useState} from "react";
 import './MovieDetail.css'
 import { useParams, NavLink } from "react-router-dom";
-import Spinner from "../GlobalComponents/Spinner";
-
-function MovieDetail(){
+import Zoom from 'react-medium-image-zoom'
+import { Helmet } from "react-helmet";
+function MovieDetail(props){
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
-   let { id } = useParams();
-   console.log(id)
-  let [movie, setMovie] = useState([])
-  let [isLoaded, setIsLoaded] = useState(false)
-  const [error, setError] = useState(null);
-   useEffect(()=>{
-     fetch("https://morning-ravine-89031.herokuapp.com/dark-aeth")
-       .then((res) => res.json())
-       .then(
-         (res) => {
-           setIsLoaded(true);
-           let all = res.movies
-           let movie = all.filter(item => item.id == id)
-           setMovie(movie[0])
-         },
-         (error) => {
-           setIsLoaded(true);
-           setError(error);
-         }
-       );
-   }, [])
-
-    if (isLoaded===false){
-      return(
-        <Spinner/>
-      )
-    }
-    
+  let { id } = useParams();
+  let movie = props.movies[id-1]
+  
     return (
       <div className="container">
+      <Helmet>
+        <title>DARKER | {movie.title}</title>
+      </Helmet>
         <div className="movie-det-container">
           <div className="movie-left">
             <NavLink to="/movies" className="back-arrow">
@@ -48,6 +26,17 @@ function MovieDetail(){
                 backgroundImage: `url(${movie.poster})`,
               }}
             ></div>
+             <div className="still-gallery">
+              <Zoom>
+                <img src={movie.still1} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={movie.still2} alt="" />
+              </Zoom>
+              <Zoom>
+                <img src={movie.still3} alt="" />
+              </Zoom>
+            </div>
           </div>
           <div className="movie-right">
             <h1 className="movie-title">{movie.title}</h1>
@@ -65,11 +54,11 @@ function MovieDetail(){
               <span className="bolder">Plot Summary: </span>
               {movie.summary}
             </p>
-            <div className="still-gallery">
+            {/* <div className="still-gallery">
               <img src={movie.still1} alt="" />
               <img src={movie.still2} alt="" />
               <img src={movie.still3} alt="" />
-            </div>
+            </div> */}
             <iframe
               width="100%"
               height="315"

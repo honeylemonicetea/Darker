@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import './Menu.css'
 
-import Logo from '../../img/logo.jpg'
+ 
 import {Link} from 'react-router-dom'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { faXmark, faBars } from "@fortawesome/free-solid-svg-icons";
@@ -24,7 +24,10 @@ function Menu(){
         <div className="menu-container">
           <div className="menu">
             <Link to="/">
-              <img src={Logo} alt="" className="logo" />
+              <span className="logo">
+                 darker
+              </span>
+             
             </Link>
           </div>
           <div className="links-container">
@@ -39,7 +42,7 @@ function Menu(){
         <div className="burger-container">
           <div className={`burger-menu-button burger-${closed}`}>
             <FontAwesomeIcon icon={faBars} onClick={toggleMenu} />
-            <span id="title">darker</span>
+            <span className="logo">darker</span>
           </div>
           <div className={`burger-inner ${closed}`}>
             <div className="burger-menu">
@@ -49,7 +52,7 @@ function Menu(){
                 onClick={toggleMenu}
               />
               <Link to="/">
-                <img src={Logo} alt="" className="logo" />
+                
               </Link>
             </div>
             <div className="links-burger">

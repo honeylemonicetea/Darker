@@ -1,39 +1,25 @@
-import React, { useState, useEffect } from "react";
+import React, {useEffect} from "react";
 import "./Book.css";
 
-import { NavLink } from "react-router-dom";
 import BookCard from "./BookCard";
-import BookDetail from "./BookDetail";
+
+import { Helmet } from "react-helmet";
 
 
-function Books() {
+function Books(props) {
     useEffect(() => {
       window.scrollTo(0, 0);
     }, []);
-  let [books, setBooks] = useState([]);
-  const [error, setError] = useState(null);
-  const [isLoaded, setIsLoaded] = useState(false);
-  useEffect(() => {
-    fetch("https://morning-ravine-89031.herokuapp.com/dark-aeth")
-      .then((res) => res.json())
-      .then(
-        (res) => {
-          setIsLoaded(true);
-          setBooks(res.books);
-        },
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        }
-      );
-  }, []);
 
   return (
     <div className="books-container">
+      <Helmet>
+        <title>DARKER | Books</title>
+      </Helmet>
       <div className="container">
-        <h1>BOOKS</h1>
+        <h1 className="heading">BOOKS</h1>
         <div className="books-content">
-          {books.map((e) => (
+          {props.books.map((e) => (
             <BookCard
               url={e.coverURL}
               title={e.title}

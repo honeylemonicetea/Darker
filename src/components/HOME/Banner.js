@@ -7,7 +7,8 @@ function Banner(){
     return(
         <div className="banner-container">
             <div className="container">
-                <h1>SOME COOL STUFF ON THIS ONE</h1>
+                <q id="quote">My whole life is a dark room. One big dark room.</q>
+                <p>— Lydia, BEETLEJUICE</p>
             </div>
         </div>
     )

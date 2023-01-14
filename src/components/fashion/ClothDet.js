@@ -1,40 +1,23 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./Cloth.css";
 import { useParams, NavLink } from "react-router-dom";
-import Spinner from "../GlobalComponents/Spinner";
+import Zoom from 'react-medium-image-zoom'
+import { Helmet } from "react-helmet";
 
-function ClothingDetail() {
+function ClothingDetail(props) {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
   let { id } = useParams();
-  console.log(id);
-  let [clothes, setClothes] = useState([]);
-  let [isLoaded, setIsLoaded] = useState(false);
-  const [error, setError] = useState(null);
-  useEffect(() => {
-    fetch("https://morning-ravine-89031.herokuapp.com/dark-aeth")
-      .then((res) => res.json())
-      .then(
-        (res) => {
-          setIsLoaded(true);
-          let all = res.clothes;
-          let cloth = all.filter((item) => item.id == id);
-          setClothes(cloth[0]);
-        },
-        (error) => {
-          setIsLoaded(true);
-          setError(error);
-        }
-      );
-  }, []);
 
-  if (isLoaded === false) {
-    return <Spinner />;
-  }
+  let clothes = props.clothes[id-1]
+
 
   return (
     <div className="container">
+      <Helmet>
+        <title>DARKER | {clothes.title}</title>
+      </Helmet>
       <div className="movie-det-container">
         <div className="movie-left">
           <NavLink to="/fashion" className="back-arrow">
@@ -53,9 +36,15 @@ function ClothingDetail() {
 
           <p className="summary">{clothes.description}</p>
           <div className="still-gallery">
-            <img src={clothes.imageB} alt="" />
-            <img src={clothes.imageC} alt="" />
-            <img src={clothes.imageD} alt="" />
+            <Zoom>
+              <img src={clothes.imageB} alt="" />
+            </Zoom>
+            <Zoom>
+              <img src={clothes.imageC} alt="" />
+            </Zoom>
+            <Zoom>
+              <img src={clothes.imageD} alt="" />
+            </Zoom>
           </div>
         </div>
       </div>

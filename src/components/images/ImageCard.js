@@ -1,13 +1,13 @@
 import React from "react";
 import './ImageCard.css'
-
+import Zoom from 'react-medium-image-zoom' 
 function ImageCard(props){
     return(
   
-            <div className="image-card" style={{backgroundImage:`url(${props.url})`}}>
-                <div className="image-inner">
-                </div>    
-            </div>
+            <Zoom className="image-card">
+                <img src={props.url} className="image-card"/>
+                    
+            </Zoom>
   
     )
 }

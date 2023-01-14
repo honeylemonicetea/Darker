@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 
 .logo{
     width: 40px;
@@ -6,9 +6,9 @@
 }
 .menu-container{
     background-color: black;
-    padding: 15px 30px;
+    padding: 10px 30px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 
@@ -20,7 +20,8 @@
 .links-container a{
     text-decoration: none;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 20px;
+    vertical-align: middle;
     font-size: 18px;
 }
 .links-container a:hover{
@@ -30,7 +31,16 @@
 .burger-container{
     display: none;
 }
-
+.logo{
+  font-size: 2em;
+  position: relative;
+  display: inline-block;
+  /* top: -1vh; */
+  left: 50%;
+  /* padding-bottom: 2vh; */
+ 
+  font-family: 'Pacifico', cursive;
+}
 
 @media (max-width: 820px) {
      /* MAKE A BURGER MENU */
@@ -54,16 +64,7 @@
         display: none;
         /* border-radius: 50%; */
       }
-      #title{
-        font-size: 3.5em;
-        position: relative;
-        top: -1vh;
-        left: 18vw;
-        padding-bottom: 2vh;
-        font-family: 'Pacifico', cursive;
-        
-        
-      }
+
       .burger-container a{
         display: block;
         font-size: 1.8em;
@@ -72,7 +73,11 @@
         
       }
 
-
+      .title{
+        left: 5%;
+        top: -1vh;
+        font-size: 3.5em;
+      }
       .burger-close-btn{
         width:7%;
         height: 1%;

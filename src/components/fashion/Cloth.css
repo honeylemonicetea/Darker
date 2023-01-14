@@ -1,11 +1,11 @@
-.poster{
+/* .poster{
     background-image: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4a49e734a10a53254815effc2f74e6a3f9431d033eb2ec07ff1b6769507ed4c6._RI_V_TTW_.jpg);
     width: 400px;
     height: 600px;
     background-size: cover;
     background-position: center;
     border-radius: 5px;
-}
+} */
 
 .movie-det-container{
     display: grid;

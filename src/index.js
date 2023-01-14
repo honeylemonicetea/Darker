@@ -15,6 +15,10 @@ import MovieDetail from './components/movies/MovieDetail'
 import BookDetail from './components/books/BookDetail'
 import ClothingDetail from './components/fashion/ClothDet'
 import UpBTN from './components/GlobalComponents/UpBTN' 
+import darkAeth from './Data/trash_bat';
+//  enlarge image
+import 'react-medium-image-zoom/dist/styles.css'
+
 
 
 ReactDOM.render(
@@ -23,14 +27,14 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/images" element={<Images />}></Route>
-      <Route path="/fashion" element={<Fashion />}></Route>
+      <Route path="/fashion" element={<Fashion clothes={darkAeth.clothes}/>}></Route>
       <Route path="/music" element={<Music />}></Route>
-      <Route path="/movies" element={<Movies />}></Route>
-      <Route path="/books" element={<Books />}></Route>
-      <Route path="/movie/:id" element={<MovieDetail />}></Route>
-      <Route path="/book/:id" element={<BookDetail />}></Route>
-      <Route path="/book/:id" element={<BookDetail />}></Route>
-      <Route path="/fashion/:id" element={<ClothingDetail />}></Route>
+      <Route path="/movies" element={<Movies movies={darkAeth.movies} />}></Route>
+      <Route path="/books" element={<Books books = {darkAeth.books} />}></Route>
+      <Route path="/movie/:id" element={<MovieDetail movies={darkAeth.movies}/>}></Route>
+      <Route path="/book/:id" element={<BookDetail books = {darkAeth.books}/>}></Route>
+      <Route path="/book/:id" element={<BookDetail books = {darkAeth.books} />}></Route>
+      <Route path="/fashion/:id" element={<ClothingDetail clothes={darkAeth.clothes} />}></Route>
     </Routes>
     {/* <React.StrictMode>
       <App />

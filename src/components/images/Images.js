@@ -1,6 +1,7 @@
 import React, {useEffect} from "react";
 import ImageCard from "./ImageCard";
 import './Images.css'
+import { Helmet } from "react-helmet";
 
 function Images(){
     useEffect(() => {
@@ -63,6 +64,9 @@ function Images(){
 
     return (
       <div className="container">
+        <Helmet>
+          <title>DARKER | Images</title>
+        </Helmet>
         <div className="images-container">
           
           {images.map(img=> <ImageCard url={img} key={Math.random()} style={{backdropFilter:'grayscale(100%)'}} />)}
