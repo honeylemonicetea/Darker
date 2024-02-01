@@ -100,16 +100,18 @@ let darkAeth = {
           "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/JOVANA-COLLAR-_-RING-DRESS-D_x1600.jpg?v=1626341201",
           "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/JOVANA-COLLAR-_-RING-DRESS-D_x1600.jpg?v=1626341201"
         },
+
         {
           "id": 10,
-          "title": "Scarlet Kisses Dress",
-          "category": "dress",
-          "price": "£44.99",
-          "description": "Are you a daydreamer or a night thinker? Get enchanted by the 'Scarlet Kisses' dress; in a lusciously soft fabric for perfect comfort and fit. Featuring a bardot neck with long sleeves and extra flared cuffs. Perfect for dinner dates, gigs, late-night promenades or simply a day out of the crypt!",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/SCARLET-KISSES-DRESS-B_x1600.jpg?v=1624461284",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/SCARLET-KISSES-DRESS-C_x1600.jpg?v=1624461285",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/SCARLET-KISSES-DRESS-B_x1600.jpg?v=1624461284",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/SCARLET-KISSES-DRESS-C_x1600.jpg?v=1624461285"
+          "title": "State Of Calamity Skirt",
+          "category": "bottom",
+          "price": "£47.99",
+          "description": "Always in control with the 'State of Calamity' skirt with just the right balance of detail. Featuring a soft stretch fabric for a flattering + comfortable fit; with an asymmetric hem and statement straps with pentagram hardware. Adorned with D-rings and zipped side for easy on/off. Easy to dress up or down, depending on your mood [or moon]",
+          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-C_x1600.jpg?v=1636104599",
+          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-B_x1600.jpg?v=1636104599",
+          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-D_x1600.jpg?v=1636104599",
+          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CALAMITY-SKIRT-B_x1600.jpg?v=1635466720"
+          
         },
         {
           "id": 11,
@@ -269,10 +271,10 @@ let darkAeth = {
           "category": "top",
           "price": "£22.99",
           "description": "Ready to ghoul'n'roll with the 'Lost In Sin' statement top - featuring a lush crushed-velvet body with a large pentagram to the chest, full zip-front, slightly cropped and adjustable shoulder straps. A perfect easy go-to-piece for any day or night!",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/lost-in-sin-top_x1600.jpg?v=1589992204",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/LOSTINSIN-ZIPTOP-D_x1600.jpg?v=1579084233",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/LOSTINSIN-ZIPTOP-C_x1600.jpg?v=1579084233",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/LOSTINSIN-ZIPTOP-B_x1600.jpg?v=1579084233"
+          "imageA": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/LOST-IN-SIN-ZIP-TOP-PASTEL-PINK-C.webp",
+          "imageB": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/LOST-IN-SIN-ZIP-TOP-PASTEL-PINK-B.webp",
+          "imageC": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/MOONDANCE-BELL-BOTTOMS-LILAC-I.webp",
+          "imageD": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/BLAIRE-B_TCH-MINI-SKIRT-PASTEL-PINK-G_4a888ebe-197d-413d-a33d-a579265ee822.webp"
            
         },
         {
@@ -281,10 +283,10 @@ let darkAeth = {
           "category": "top",
           "price": "£44.99",
           "description": "Are you all about sweater-weather life? Get extra cozy with the 'Dungeoness' super-soft jersey hood-dress! Complete with a fitted longline body, oversized hood with drawstrings, extra-long sleeves, front pockets and hanky hem statement for some extra drama. A best-of-both-worlds basic; equally perfect for lounging as it is for a night out! Wear on its own or layer as your mood/moon desires!",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/DUNGEONESS-HOODIE-B_x1600.jpg?v=1573105646",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/DUNGEONESS-HOODIE-D_x1600.jpg?v=1573105646",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/DUNGEONESS-HOODIE-C_x1600.jpg?v=1573105646",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/DUNGEONESS-HOODIE_x1600.jpg?v=1573105646"
+          "imageA": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/DUNGEONESS-HOODIE-W-E.webp",
+          "imageB": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/DUNGEONESS-HOODIE-W-B.webp",
+          "imageC": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/DUNGEONESS-HOODIE-W-D.webp",
+          "imageD": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/DUNGEONESS-HOODIE-W-C.webp"
           
         },
         {
@@ -293,10 +295,10 @@ let darkAeth = {
           "category": "top",
           "price": "£49.99",
           "description": "Life is one big ritual; the spellbinding 'In The Shadows' statement cloak is conjured of the softest stretch-fabric; for superior comfort and fit. Featuring a draping body, oversized hood, and open front. Ideal for layering - transforms your daily routine to a magical expression - perfect for festivals, midnight ceremonies, and hot dates.",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/INTHESHADOWS-CLOAK-B_x1600.jpg?v=1573733339",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/INTHESHADOWS-CLOAK-D_x1600.jpg?v=1573733339",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/INTHESHADOWS-CLOAK-C_x1600.jpg?v=1573733339",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/INTHESHADOWS-CLOAK_x1600.jpg?v=1570021272"
+          "imageA": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/IN-THE-SHADOWS-CLOAK-W-D.webp",
+          "imageB": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/IN-THE-SHADOWS-CLOAK-W-E.webp",
+          "imageC": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/IN-THE-SHADOWS-CLOAK-W-C.webp",
+          "imageD": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/images/IN-THE-SHADOWS-CLOAK-W-B.webp"
           
         },
         {
@@ -313,18 +315,6 @@ let darkAeth = {
         },
         {
           "id": 28,
-          "title": "Bite Me Fishnet Bolero",
-          "category": "top",
-          "price": "£9.99",
-          "description": "Don't fear to fall - just get back up or you risk not getting anywhere at all. Hot AF fishnet 'Bite Me' bolero in a soft nylon mix with super stretch; wide neckline with long sleeves. Purrfect for your black on black wardrobe.",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/BITEME-BOLERO-B_x1600.jpg?v=1569246928",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/BITEME-BOLERO-C_x1600.jpg?v=1569246928",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/BITEME-BOLERO_x1600.jpg?v=1569246928",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/BITEME-BOLERO-B_x1600.jpg?v=1569246928"
-           
-        },
-        {
-          "id": 29,
           "title": "You Are Warped Sweater",
           "category": "top",
           "price": "£44.99",
@@ -336,7 +326,7 @@ let darkAeth = {
           
         },
         {
-          "id": 30,
+          "id": 29,
           "title": "Yasumi Mesh Skirt",
           "category": "bottom",
           "price": "£42.99",
@@ -348,7 +338,7 @@ let darkAeth = {
            
         },
         {
-          "id": 31,
+          "id": 30,
           "title": "Death Star Maxi Skirt",
           "category": "bottom",
           "price": "£44.99",
@@ -360,7 +350,7 @@ let darkAeth = {
           
         },
         {
-          "id": 32,
+          "id": 31,
           "title": "No Feelings Jeans",
           "category": "bottom",
           "price": "£55.99",
@@ -372,7 +362,7 @@ let darkAeth = {
           
         },
         {
-          "id": 33,
+          "id": 32,
           "title": "Azazel Washed Jeans",
           "category": "bottom",
           "price": "£59.99",
@@ -383,18 +373,7 @@ let darkAeth = {
           "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/AZAZEL-WASHED-JEANS-D_x1600.jpg?v=1635769428"
           
         },
-        {
-          "id": 34,
-          "title": "State Of Calamity Skirt",
-          "category": "bottom",
-          "price": "£47.99",
-          "description": "Always in control with the 'State of Calamity' skirt with just the right balance of detail. Featuring a soft stretch fabric for a flattering + comfortable fit; with an asymmetric hem and statement straps with pentagram hardware. Adorned with D-rings and zipped side for easy on/off. Easy to dress up or down, depending on your mood [or moon]",
-          "imageA": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-C_x1600.jpg?v=1636104599",
-          "imageB": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-B_x1600.jpg?v=1636104599",
-          "imageC": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CLAMITY-SKIRT-D_x1600.jpg?v=1636104599",
-          "imageD": "https://cdn.shopify.com/s/files/1/0228/2373/products/STATE-OF-CALAMITY-SKIRT-B_x1600.jpg?v=1635466720"
-          
-        }
+    
        
       ],
       "movies":[
@@ -405,9 +384,9 @@ let darkAeth = {
           "genre": "Action, Fantasy, Thriller",
           "cast": "Brandon Lee, Michael Wincott, Rochelle Davis",
           "director": "Alex Proyas",
-          "poster": "https://m.media-amazon.com/images/M/MV5BNGJlMmIwNjItNDg1Yi00MTQ0LTkyMWItMjVjZTE3MjU3ZGJkXkEyXkFqcGdeQXVyNTIzOTk5ODM@._V1_.jpg",
+          "poster": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/movies/crow.webp",
           "still1": "https://i.pinimg.com/originals/b3/4e/d4/b34ed421a75e845df60380f8614d67d1.jpg",
-          "still2": "https://kinopoisk-ru.clstorage.net/1tR64x118/702215D5k/3HsLzZmf212jaLbzGX8ItY_Z8MrpaZVd0jZ9Gse29WwzT0T-uD_Nxl90CWRK-gVO5hWEZI02VU6VdQARobBbSe1yV4TM45JtmiXOqjAfOKjPtNGq8GikffovbSofck2oh5e0GyiHXXofPWkZO59sF_dwnWiwF1RfJO1V7IC5w2iIr1spPXsKXYc0y_O9w1ihi-R0qu3gMeH-q316a74hAJ9jOAec16mWh8F4wSvnjL8vmPGcdYvU31yk-cyodSt0dIeTXdk_fv3HyGt35cegqYusZG5tJKF1wtedJj-i9QTXCzy7CKf16meJbKXXq0A7n1CN_N3HVAO8REXo2A2_VEC7JyWNm4JBCzgfd9139B0XsFhKURQJjab3nQZzVm3MX__g3yg3GYrzbRRlp5eE-_9wgZT1d1Aj9CBZiMhBE3h4798VDds2DatcP4sZc5jlpyggkjWUzSHS1xka585VcDNj2Es4Tz1iey1gHZuPZIsL_GF8Pb847wS0UXRY2dtoUIeH2T3DOnkn9M_zbWcMHbOc0DpJmE0pwrNxPm_e9bBXV0zDTFfl2nPFAHEHMwAfuwipZF17QC_4LEGQuNVbyGi3FynJlwJtTzh3dxUbWOl7nNCmOYx50Z5X8S4zBkVwt6usZ9CTVWZXQYAJvyM8yyt87WwBk9yfDCCF4Nwhuxx84wf5yTeyXcfQ15cdZ_AhsxR8VuUopVVqs_VizxKNeAsnpB9Yk81ey3GIRaeX0PMb4AUMfW-wF9RMwRT4yVfUGEtDtal3HrHLWL8LQdsk7a98fP6xNAmBgquR7mtW5Si77yAD2FOxVkcJ3PHfd3ybdwQZYD2LJMvkIB0MsKkfVASnI0n1yyrdS9hnU_H_qPlbdAw60bB9iRr_If6vCgn0R2OMS4RLXQYrvVAFd6tkc_csiQTBI6RfTJjNkIDhLzj4J0fVrcfaNdsgO3NlQyBlo-hMsj2MrSlyt1E-25YtJFNbyIcEJz2We_Ww_b8bWJen_CEsmet0y1DclbBAYdfMbCcnrZlzsgUryMfPnV88Mcfc6Ppt6DEJkkvBMr8-oaC390RviIvNquOhfP3Xhwwn_2wNeImf3Gs4OMkMBGHnFBDvEwXFQx5xpxjf43lvhIET_NiqdRz5SdJfIWrTTq2kb8dQc4S_KeZTfYwV_6MQoyeooWzJ61xrdKRlACyJO5xUN28R9ffeOYvoW99hS4QhL1jkttEYpQmic8Hqexb1-D_bDNtoF8HyDyX4ba8LPEsD9Ilw_SPQNwwUzRSkWVPc1IfLrbVfMkHT2NNXaVfouZMIRLplLC1lnveJ5usmhbw74wQXNK-lUse1AGHX_3w_d4A1qHk_wDe8PH2Q6M3rTODjQ83Fd37dC-S7gxVDZE3_NBDKzQR9qfojjZ7_IlUoT1_sd2QzzRorfbCly6_s7yNYZbQJs4Qr5PT5gOg1i0x4Ox810Y-6eTv8S1O1z3QJy6QMxlWw6UlCo3Fyi8IRZIMPqFfoc_36c2ms_RuT0Psn0C2QuTMMS3xQFeQsMS8MfLuzdbVn3mHPnDurWVOQcYvo4NJNmHEpnif5GrMGTZSDe5QLEHt1TitFLJXTh_hz7wgZkEWzvCcQtBlwcOEH8Iw7p4m5d37NxyCb_yGvGDWD4BCaNdwRVSa_IQpTWokgm_-EA9BXcU6LQXxlVwMA6-skrcBBfyRHSBgxcLTdz3CIl8-9FUtaIcOQo58t73S1A7BsYrGYHanuS3Ee77oB4LtDyB_ci02Gzy0MLZ-fkDeD6Pl4KSMAX_zwDWyoJU8ITL-rTZVvMr3_rEtjGfeADa-cwM5p9OWZ5kftrgcSUUzD12CLbIM9KlOlsKk_P3jrE4x5CMFjuNeMIHEEvOWLZET3T9Epl8bhjzCjjyXD_C1TnMTCpZR15cKH6dI_tu1EyyPMlzS_URabcYylW4MIIzOIaUz9MyzjcADdfGztT_TEm8-ludtOdQdUw8cpn-Bxv4Rc9vUAwVVmR-3uR5bNCIdnJDe087lO04EwxYOL6KNr5OX0qf-Uh9QkwSjM7btknEtfqd1bmtmjfNNj5bf49YOcCC71WOmF5sd5use26QAv8zxXZN9Ndns5bDWHN9wHV3h1_FVLEN-A-PngQGW_6HDvH5WRFxJBh8z389nvtL27nGQyTfg15eY_iaZH6vUkB2dAzxxf9SbfXRRx0-vsN5N0nXithyivuHj5zIStW0wYt08hMcfeQSckd-vl54A9P-AouqksBWVa6_0aN-5hbBPzXLtA0-nOY3lU5TPr9Jv_CD3kUTMwK0j4jeTseS8QsD9vMfXDXuGTfJNfFTu4DSewfHq5oLGZAksZnm-SVURDP6z7nHM9lstZfKWzn8gbcxx9YNkPCFdQwBVwyCEHeGwnC0lFx4bxs_Q3C5krVBlPFEC-3bxxdQoPqfozGpk8t1_IXxSXkap_zWRJUwfEewvEmTAFu0xj9NjRuMxl40Qcv4OxDXtC-TskR3vZcwx10wBMVnkQdUnqx4kOwzb5zIO_sJeAD-mKH_mUAZODdP__SKkwlU-QI4hAUXTc9bsckKsDoRHHusWb8BsDJV_44afc6CalJPHtInPlqs9OgejTiwwzvDtVXqP5DG0vcxzPF8R5GDWTlNeQVF2chMW_lJC_k5GBw6L929j3F2UfIDEfvPTOqQDtDWaD0ap7iolsCw_oa2QP9eZLASBJz1PE62dUGThNK6gvlMCVHNBFE2TIO19VkWfOAQ9AbwPBExwJC3hsOl2UDcVe--Xuf5b1CE-nyO_QhzmKW128wVMHXDO_dCXotZ-EU5y8QeSgTc-Q8HtrWZX7Ln2voBPDrX-kEVOMiOodKJGRlkcJposm7UTPYwCfXB_Vguu5FD2nLxwTe2j5eI0_MEdsKI2gNGHTdGy3m8VFGyrFG6zLCy2vFLnXHPzCsdzhSQJv8Qp3olEUO-Oc81ivfWIH0ZRtv_fca2csNSC185CDXKBY#DSD",
+          "still2": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/movies/stillcrow.webp",
           "still3": "https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/e82157d8-dc8b-4497-95bd-e1d5db2a91fb/orig",
           "summary": "A man brutally murdered comes back to life as an undead avenger of his and his fiancée's murder.",
           "trailerURL": "https://www.youtube.com/embed/N5uPZ7ocsqA"
@@ -419,27 +398,13 @@ let darkAeth = {
           "genre": "Drama, Fantasy, Horror",
           "cast": "Brad Pitt, Tom Cruise, Antonio Banderas",
           "director": "Neil Jordan",
-          "poster": "https://m.media-amazon.com/images/M/MV5BYThmYjJhMGItNjlmOC00ZDRiLWEzNjUtZjU4MjA3MzY0MzFmXkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/vampire.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BMjMzOTExNDQxMF5BMl5BanBnXkFtZTgwMzA0OTIwMjE@._V1_.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMjAyMzQ0Mzk3Nl5BMl5BanBnXkFtZTgwNjA0OTIwMjE@._V1_.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BMTQ4Nzc0NTQ2MV5BMl5BanBnXkFtZTgwMjE0OTIwMjE@._V1_.jpg",
           "summary": "A vampire tells his epic life story: love, betrayal, loneliness, and hunger",
           "trailerURL": "https://www.youtube.com/embed/LIm8HfwnmVE"
         },
-        // {
-        //   "id": 3,
-        //   "title": "The Rocky Horror Picture Show",
-        //   "year": "1975",
-        //   "genre": "Comedy, Horror, Musical",
-        //   "cast": "Tim Curry, Susan Sarandon, Barry Bostwick",
-        //   "director": "Jim Sharman",
-        //   "poster": "https://m.media-amazon.com/images/M/MV5BOGIzYjM3YzMtMjk5ZS00NDY2LTllMjEtNjYwZjhmMDNhMDBkXkEyXkFqcGdeQXVyODUzMjQxMTA@._V1_.jpg",
-        //   "still1": "https://m.media-amazon.com/images/M/MV5BMTY4MzA1MzM2OV5BMl5BanBnXkFtZTgwMzE1NTU5MTE@._V1_.jpg",
-        //   "still2": "https://imagesvc.meredithcorp.io/v3/mm/image?q=60&c=sc&poi=%5B480%2C106%5D&w=2000&h=1000&url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F6%2F2022%2F01%2F21%2Fshutterstock_editorial_5885245v.jpg",
-        //   "still3": "https://www.themarysue.com/wp-content/uploads/2020/08/rocky-1200x600.jpg",
-        //   "summary": "A newly-engaged couple have a breakdown in an isolated area and must seek shelter at the bizarre residence of Dr. Frank-n-Furter.",
-        //   "trailerURL": "https://www.youtube.com/embed/4plqh6obZW4"
-        // },
         {
           "id": 3,
           "title": "Edward Scissorhands",
@@ -447,7 +412,7 @@ let darkAeth = {
           "genre": "Drama, Fantasy, Romance",
           "cast": "Johnny Depp, Winona Ryder, Dianne Wiest",
           "director": "Tim Burton",
-          "poster": "https://upload.wikimedia.org/wikipedia/ru/a/aa/Movie_DVD_cover_edward_scissorhands.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/Edward.jpg?raw=true",
           "still1": "https://filmgrab.files.wordpress.com/2012/10/2614.jpg",
           "still2": "https://film-grab.com/wp-content/uploads/photo-gallery/14%20(345).jpg?bwg=1547212195",
           "still3": "http://static.demilked.com/wp-content/uploads/2015/08/movie-locations-edward-scissorhands-suburb-now-then-pictures-voodrew-7.jpg",
@@ -461,7 +426,7 @@ let darkAeth = {
           "genre": "Adventure, Family, Fantasy, Musical",
           "cast": "David Bowie, Jennifer Connelly, Toby Froud",
           "director": "Jim Henson",
-          "poster": "https://m.media-amazon.com/images/M/MV5BMjM2MDE4OTQwOV5BMl5BanBnXkFtZTgwNjgxMTg2NzE@._V1_FMjpg_UX1000_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/labyrinth.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BMTQ4MjEwMDk2Ml5BMl5BanBnXkFtZTgwMjkzODEzMDI@._V1_.jpg",
           "still2": "https://img.playbuzz.com/image/upload/ar_1.5,c_pad,f_jpg,b_auto/cdn/8af44be0-7bb2-4539-9928-f1b0c3a0721f/6b0abeec-861d-41f3-9fd7-dc9c52e86fed.jpg",
           "still3": "https://images.mubicdn.net/images/film/3389/cache-90767-1486424585/image-w1280.jpg?size=800x",
@@ -475,7 +440,7 @@ let darkAeth = {
           "genre": "Comedy, Fantasy",
           "cast": "Alec Baldwin, Geena Davis, Michael Keaton",
           "director": "Tim Burton",
-          "poster": "https://m.media-amazon.com/images/M/MV5BZDdmNjBlYTctNWU0MC00ODQxLWEzNDQtZGY1NmRhYjNmNDczXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_FMjpg_UX1000_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/beetlejuice.jpg?raw=true",
           "still1": "https://images.amcnetworks.com/ifccenter.com/wp-content/uploads/2021/10/beetlejuice_1280x720.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMjI2MDI2MzEwMl5BMl5BanBnXkFtZTcwNTI1OTAzOQ@@._V1_.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BMjA3Mzc1NzA3OV5BMl5BanBnXkFtZTYwMjU0Mzg3._V1_.jpg",
@@ -489,7 +454,7 @@ let darkAeth = {
           "genre": "Comedy, Fantasy",
           "cast": "Anjelica Huston, Raul Julia, Christopher Lloyd",
           "director": "Barry Sonnenfeld",
-          "poster": "https://m.media-amazon.com/images/M/MV5BMzYxZTUzODYtYjQwYi00NGYzLTkxZjEtNjYwZWZlYmM0ZDg3XkEyXkFqcGdeQXVyMTYzMDM0NTU@._V1_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/addams.jpg?raw=true",
           "still1": "https://i.pinimg.com/564x/ce/71/57/ce715717e7b16fb077bdb5eb5db3989b.jpg",
           "still2": "https://media.timeout.com/images/103528372/750/422/image.jpg",
           "still3": "https://static2.cbrimages.com/wordpress/wp-content/uploads/2021/11/The-Addams-Family-1991-Cast.jpg",
@@ -503,10 +468,10 @@ let darkAeth = {
           "genre": "Fantasy, Mystery, Sci-Fi, Thriller",
           "cast": "Rufus Sewell, Kiefer Sutherland, Jennifer Connelly",
           "director": "Alex Proyas",
-          "poster": "https://upload.wikimedia.org/wikipedia/en/9/9c/Dark_City_poster.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/darkcity.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BMjg1NDIyNzM0N15BMl5BanBnXkFtZTcwNDgxODY3Mw@@._V1_.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BNDMxMTgzMDEyN15BMl5BanBnXkFtZTcwMzgxODY3Mw@@._V1_.jpg",
-          "still3": "https://winteriscoming.net/files/2021/08/Dark-City-Strangers.jpeg",
+          "still3": "https://m.media-amazon.com/images/M/MV5BMTQwMTQ3NzUwM15BMl5BanBnXkFtZTcwNjM2MzMyNw@@._V1_.jpg",
           "summary": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
           "trailerURL": "https://www.youtube.com/embed/gt9HkO-cGGo"
         },
@@ -517,7 +482,7 @@ let darkAeth = {
           "genre": "Drama, Musical, Romance, Thriller",
           "cast": "Gerard Butler, Emmy Rossum, Patrick Wilson",
           "director": "Joel Schumacher",
-          "poster": "https://musicart.xboxlive.com/7/06493600-0000-0000-0000-000000000002/504/image.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/phantom.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BMTM1NzQxOTI2Ml5BMl5BanBnXkFtZTcwNDQ0NjgyMw@@._V1_.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMTY3MzE5MzY1MF5BMl5BanBnXkFtZTcwMzgzNjgyMw@@._V1_.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BNzc5NDI4NDcxOV5BMl5BanBnXkFtZTcwMTQ0NjgyMw@@._V1_.jpg",
@@ -531,8 +496,8 @@ let darkAeth = {
           "genre": "Fantasy, Horror,Mystery",
           "cast": "Johnny Depp, Christina Ricci, Miranda Richardson",
           "director": "Tim Burton",
-          "poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/c6d111a32bb0b243806516e8ce8fbd66e5c2db6acf0ddd7702f63a3b06a01472._RI_V_TTW_.jpg",
-          "still1": "https://cdn.onebauer.media/one/empire-tmdb/films/2668/images/d7yZz1SmFNLSbZGilW2wAd9gcBd.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/sleepy.jpg?raw=true",
+          "still1": "https://m.media-amazon.com/images/M/MV5BMTk0MTM0OTc2Ml5BMl5BanBnXkFtZTYwMDA2NDY3._V1_.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMjM3Mzk2NDI2N15BMl5BanBnXkFtZTgwNzM2MTc5MzI@._V1_.jpg",
           "still3": "https://bloody-disgusting.com/wp-content/uploads/2020/02/sleepy-hollow-movie.png",
           "summary": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people, with the culprit being the legendary apparition, The Headless Horseman",
@@ -545,10 +510,10 @@ let darkAeth = {
           "genre": "Drama, Fantasy, Horror",
           "cast": "Emily Perkins, Katharine Isabelle, Kris Lemche",
           "director": "John Fawcett",
-          "poster": "https://m.media-amazon.com/images/M/MV5BMjY4OWNjYWQtODM2NC00MDk3LTgzMDgtM2QzZWFmYTNlNDk2XkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/gingersnaps.jpg?raw=true",
           "still1": "https://www.slantmagazine.com/wp-content/uploads/2001/11/gingersnaps.jpg",
           "still2": "https://img.buzzfeed.com/buzzfeed-static/static/2020-08/5/16/asset/0bb535dde53e/sub-buzz-4160-1596645106-12.jpg?crop=1053:551;259,87%26downsize=1250:*",
-          "still3": "https://www.trylon.org/wp-content/uploads/2021/07/GingerSnaps_1_individual_film.jpg",
+          "still3": "https://film-grab.com/wp-content/uploads/photo-gallery/07%20(415).jpg?bwg=1547218542",
           "summary": "Two death-obsessed sisters, outcasts in their suburban neighborhood, must deal with the tragic consequences when one of them is bitten by a deadly werewolf",
           "trailerURL": "https://www.youtube.com/embed/lRXT1J0kqdY"
         },
@@ -559,8 +524,8 @@ let darkAeth = {
           "genre": "Action, Fantasy, Horror, Mystery",
           "cast": "Keanu Reeves, Rachel Weisz, Djimon Hounsou",
           "director": "Francis Lawrence",
-          "poster": "https://drunkenme.com/movie-drinking-games/constantine/constantine-poster.jpeg",
-          "still1": "https://www.comingsoon.net/assets/uploads/2021/11/keanu-reeves-constantine.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/constantine.jpg?raw=true",
+          "still1": "https://cache.moviestillsdb.com/i/500x/hspnpqfa/constantine-lg.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMjA4MjA0NzU5Ml5BMl5BanBnXkFtZTgwMTY4MzMyMDI@._V1_.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BMjI3MjU4MDY4Ml5BMl5BanBnXkFtZTgwODY4MzMyMDI@._V1_.jpg",
           "summary": "Supernatural exorcist and demonologist John Constantine helps a policewoman prove her sister's death was not a suicide, but something more",
@@ -573,9 +538,9 @@ let darkAeth = {
           "genre": "Animation, Family, Fantasy, Musical",
           "cast": "Danny Elfman (voice), Chris Sarandon (voice), Catherine O'Hara (voice)",
           "director": "Henry Selick",
-          "poster": "https://m.media-amazon.com/images/M/MV5BNWE4OTNiM2ItMjY4Ni00ZTViLWFiZmEtZGEyNGY2ZmNlMzIyXkEyXkFqcGdeQXVyMDU5NDcxNw@@._V1_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/nightmare.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BMTQxNTY0NDE2Nl5BMl5BanBnXkFtZTcwMzg2ODMyMw@@._V1_.jpg",
-          "still2": "https://pics.filmaffinity.com/The_Nightmare_Before_Christmas-338985671-large.jpg",
+          "still2": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/download.jpeg?raw=true",
           "still3": "https://m.media-amazon.com/images/M/MV5BMTgwMjAyMzExN15BMl5BanBnXkFtZTcwMDg2ODMyMw@@._V1_.jpg",
           "summary": "Jack Skellington, king of Halloween Town, discovers Christmas Town, but his attempts to bring Christmas to his home causes confusion.",
           "trailerURL": "https://www.youtube.com/embed/wr6N_hZyBCk"
@@ -587,7 +552,7 @@ let darkAeth = {
           "genre": "Animation, Drama, Family, Fantasy, Thriller",
           "cast": "Dakota Fanning(voice), Teri Hatcher(voice), John Hodgman(voice)",
           "director": "Henry Selick",
-          "poster": "https://www.slaphappylarry.com/wp-content/uploads/2018/03/Coraline-movie-poster.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/coraline.jpg?raw=true",
           "still1": "https://m.media-amazon.com/images/M/MV5BNTUxODgzMjM0N15BMl5BanBnXkFtZTcwMjY3NDgxNw@@._V1_.jpg",
           "still2": "https://i.pinimg.com/originals/4d/68/43/4d6843ee381187c333168e8317c7955f.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BMTM5ODE5NDgzMV5BMl5BanBnXkFtZTcwODY3NDgxNw@@._V1_.jpg",
@@ -601,7 +566,7 @@ let darkAeth = {
           "genre": "Animation, Drama, Family, Fantasy, Musical, Romance",
           "cast": "Johnny Depp(voice), Helena Bonham Carter(voice), Emily Watson(voice)",
           "director": "Tim Burton, Mike Johnson",
-          "poster": "https://images-na.ssl-images-amazon.com/images/S/pv-target-images/4a49e734a10a53254815effc2f74e6a3f9431d033eb2ec07ff1b6769507ed4c6._RI_V_TTW_.jpg",
+          "poster": "https://raw.githubusercontent.com/honeylemonicetea/Resources/main/darker/movies/corpsebride.webp",
           "still1": "https://m.media-amazon.com/images/M/MV5BMTI3NDU5NzU3OF5BMl5BanBnXkFtZTcwMzIxNzgyMw@@._V1_.jpg",
           "still2": "https://m.media-amazon.com/images/M/MV5BMTYxMzc3NjMyOV5BMl5BanBnXkFtZTcwODIxNzgyMw@@._V1_.jpg",
           "still3": "https://bloximages.newyork1.vip.townnews.com/tulsaworld.com/content/tncms/assets/v3/editorial/b/5f/b5fb0bc1-9d26-5a8e-ac78-6782263e3062/524e1de646bdc.image.jpg",
@@ -615,7 +580,7 @@ let darkAeth = {
           "genre": "Drama, Fantasy, Horror, Thriller",
           "cast": "Robin Tunney, Fairuza Balk, Neve Campbell",
           "director": "Andrew Fleming",
-          "poster": "https://m.media-amazon.com/images/M/MV5BZTBkMWE1NGItZTgxMi00ZTE0LWIzZjAtNzQ5ZGZlZTQxN2EwXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+          "poster": "https://github.com/honeylemonicetea/Resources/blob/main/darker/movies/the%20craft.jpg?raw=true",
           "still1": "https://www.denofgeek.com/wp-content/uploads/2020/03/the-craft-movie.jpg?fit=1278%2C756",
           "still2": "https://m.media-amazon.com/images/M/MV5BMTA3MjQwMjkzNzZeQTJeQWpwZ15BbWU4MDA2OTU2Nzgx._V1_.jpg",
           "still3": "https://m.media-amazon.com/images/M/MV5BMTg4OTQxMDE2MV5BMl5BanBnXkFtZTgwMzU5NTY3ODE@._V1_.jpg",
